@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_background"
+    tools:context=".LoadingActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <!-- Image -->
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:src="@drawable/logo"/>
+
+        <ProgressBar
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_margin="30dp"
+            android:indeterminateTint="@color/white"
+            style="?android:attr/progress" />
+
+        <TextView
+            android:layout_width="260dp"
+            android:layout_height="75dp"
+            android:text="Please Wait"
+            android:textColor="@color/white"
+            android:fontFamily="@font/jaro"
+            android:textSize="30sp"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="100dp"
+            android:text="Loading"
+            android:textColor="@color/white"
+            android:fontFamily="@font/jaro"
+            android:textSize="80sp"
+            android:gravity="center"/>
+
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -25,7 +25,7 @@ class LoginActivity : AppCompatActivity() {
 
             if (username == "admin" && password == "1234") {
                 Toast.makeText(this, "Login Successful!", Toast.LENGTH_SHORT).show()
-                val intent = Intent(this, MainActivity::class.java) // Navigate to MainActivity
+                val intent = Intent(this, LoadingActivity::class.java) // Navigate to MainActivity
                 startActivity(intent)
                 finish()
             } else {
