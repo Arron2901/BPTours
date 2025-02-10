@@ -104,7 +104,7 @@
             android:text="Login"
             android:layout_marginTop="30dp"
             android:paddingTop="0dp"
-            android:backgroundTint="@color/backgroundColor"
+            android:backgroundTint="@color/backgroundColour"
             android:textSize="55sp"
             android:fontFamily="@font/jaro"
             android:id="@+id/login_btn"/>

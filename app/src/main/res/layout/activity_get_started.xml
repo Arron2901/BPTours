@@ -28,7 +28,7 @@
             android:text="Get Started"
             android:layout_marginTop="380dp"
             android:paddingTop="0dp"
-            android:backgroundTint="@color/backgroundColor"
+            android:backgroundTint="@color/backgroundColour"
             android:textSize="55sp"
             android:gravity="center"
             android:fontFamily="@font/jaro"
