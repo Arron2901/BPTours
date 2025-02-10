@@ -4,5 +4,6 @@
     <color name="white">#FFFFFFFF</color>
     <color name="red">#FF0303</color>
     <color name="grey">#575757</color>
-    <color name="backgroundColor">#2F6180</color>
+    <color name="tourBoxColour">#143E57</color>
+    <color name="backgroundColour">#2F6180</color>
 </resources>
